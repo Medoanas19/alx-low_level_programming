@@ -12,7 +12,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Last digit of %i is", n);
 
 	m = n % 10;
 	if (m > 5)
@@ -21,7 +20,11 @@ int main(void)
 	}
 	else if (m == 0)
 	{
-		printf("%i and is less than 6 and not 0\n", m);
+		printf("%i and is not 0\n", m);
+	}
+	else 
+	{
+		printf("%i and is less than 6 and not 0\n ", m)
 	}
 	return (0);
 }
