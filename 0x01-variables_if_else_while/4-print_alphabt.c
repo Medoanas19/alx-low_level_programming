@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char word[24] = "abcdfghijklmnoprstuvwxyz";
+	char word[] = "abcdfghijklmnoprstuvwxyz";
 	int R;
 
 	for (R = 0; R < 26; R++)
