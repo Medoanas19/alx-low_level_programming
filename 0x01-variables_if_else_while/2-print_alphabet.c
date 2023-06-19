@@ -7,7 +7,7 @@ int main(void)
 {	char word[26] = "abcdefghijklmnopqrstuvwxyz";
 	int R;
 
-	for (R = 0; R <= 26; R++)
+	for (R = 0; R < 26; R++)
 	{
 		putchar(word[R]);
 	}
