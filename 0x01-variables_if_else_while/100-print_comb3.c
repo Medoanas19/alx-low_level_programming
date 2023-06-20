@@ -8,15 +8,15 @@ int main(void)
 	int l;
 	int p;
 
-	for (l = 0; l <= 8; l++)
+	for (l = '0'; l <= '9'; l++)
 	{
-	for (p = l + 1; p <= 9; p++)
+	for (p = l + 1; p <= '9'; p++)
 	{
-		if (p > l)
+		if (p != l)
 		{
 		putchar(l);
 		putchar(p);
-		if (l != 8 || p != 9)
+		if (l == '8' && p == '9')
 		{
 		putchar(',');
 		putchar(' ');
