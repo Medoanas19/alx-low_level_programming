@@ -12,10 +12,16 @@ int main(void)
 	{
 	for (p = l + 1; p <= 9; p++)
 	{
-		putchar(l + '0');
-		putchar(p + '0');
+		if (p > l)
+		{
+		putchar(l);
+		putchar(p);
+		if (l != 8 || p != 9)
+		{
 		putchar(',');
 		putchar(' ');
+		}
+		}
 	}
 	}
 	putchar('\n');
