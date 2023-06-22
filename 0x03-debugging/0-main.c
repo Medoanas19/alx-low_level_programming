@@ -1,10 +1,10 @@
 #include "main.h"
-
 /**
- * main - This is to test if a function is pos or neg
+ * main - Check if the number is positive or negative
+ * 0 : is the number to be checked
  * Return: 0
  */
-int main(vois)
+int main(void)
 {
 	int i;
 
