@@ -2,8 +2,8 @@
 
 /**
  * main - if negative or positive
- * 0 " is the number we are checking
- * Return: 0 
+( * 0 : is the number we are checking
+ * Return: 0
  */
 void positive_or_negative(int i)
 {
@@ -15,7 +15,7 @@ else if (i > 0)
 {
 printf("%d is %s\n", i, "positive");
 }
-else 
+else
 {
 printf("%d is %s\n", i, "zero");
 }
