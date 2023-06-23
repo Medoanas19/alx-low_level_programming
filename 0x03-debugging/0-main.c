@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - Check if function is positive or negative
+ * main - check if function is pos or neg
+ * positive_or_negative - checks if number is negative or positive
+ * 0 : is number to be checked
  * Return: 0
  */
 int main(void)
