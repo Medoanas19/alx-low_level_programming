@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
- * main - if negative or positive
-( * 0 : is the number we are checking
+ * main - Checking if function is positive, negative or zero
+ * @i : is num to be checked
  * Return: 0
  */
 void positive_or_negative(int i)
@@ -20,4 +19,5 @@ else
 printf("%d is %s\n", i, "zero");
 }
 return;
+
 }
